@@ -1,0 +1,20 @@
+.logoActive {
+  font-size: 30px;
+  transition: font-size 0.5s ease-out;
+}
+.logoInactive {
+  font-size: 0px;
+}
+
+.headerActive {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerInactive {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+}

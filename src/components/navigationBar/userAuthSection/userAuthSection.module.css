@@ -1,0 +1,25 @@
+.containerActive {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, rgb(45, 173, 228), rgb(143, 192, 72));
+  border-radius: 6px;
+}
+.containerInactive {
+  background: "white";
+}
+
+.userInfoActive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+.userInfoInactive {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}

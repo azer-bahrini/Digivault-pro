@@ -1,0 +1,15 @@
+{
+  "Links": {
+    "home": "الصفحة الرئيسية",
+    "archive": "الأرشيف",
+    "fileExplorer": "مستكشف الملفات",
+    "audit": "تدقيق",
+    "analytics": "تحليلات",
+    "userManagement": "إدارة المستخدمين"
+  },
+  "Login": {
+    "login": "تسجيل الدخول",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور"
+  }
+}

@@ -1,0 +1,12 @@
+.titleActive {
+  margin-left: 20px;
+  color: rgb(90, 110, 118);
+
+  opacity: 1;
+  font-size: 18px;
+  transition: font-size 0.5s ease-out;
+}
+
+.titleInactive {
+  font-size: 0px;
+}

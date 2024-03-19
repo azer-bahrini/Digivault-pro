@@ -1,0 +1,15 @@
+{
+  "Links": {
+    "home": "Home",
+    "archive": "Archive",
+    "fileExplorer": "File Explorer",
+    "audit": "Audit",
+    "analytics": "Analytics",
+    "userManagement": "User Management"
+  },
+  "Login": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Links": {
+    "home": "Acceuil",
+    "archive": "Archive",
+    "fileExplorer": "Explorateur de fichiers",
+    "audit": "Audit",
+    "analytics": "Analytique",
+    "userManagement": "Gestion des utilisateurs"
+  },
+  "Login": {
+    "login": "Login",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe"
+  }
+}
