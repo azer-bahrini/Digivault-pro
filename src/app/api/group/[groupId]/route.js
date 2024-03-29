@@ -1,8 +1,10 @@
 import { getGroupByID, updateGroup, deleteGroup,  } from "../../../../server/service/group.service";
 import { authMiddleware } from "../../../../server/middleWare/auth";
+
+
 export async function GET(req, { params }) {
     const id = params.groupId;
-    
+
     const middlewareResponse = authMiddleware(req);
     if (middlewareResponse) {
         return middlewareResponse; // Redirect or handle errors if necessary
@@ -10,6 +12,7 @@ export async function GET(req, { params }) {
 
     try {
         const group = await getGroupByID(id);
+        
         if (!group) {
         return new Response(404, {
             message: "Group not found"
@@ -17,7 +20,7 @@ export async function GET(req, { params }) {
         }
     
         return Response.json({
-        group : group.group
+        group : group
         });
     } catch (error) {
         return new Response(500, {
